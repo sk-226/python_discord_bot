@@ -3,7 +3,7 @@ from discord.ext import commands
 from dotenv import load_dotenv
 from openai import OpenAI
 import os
-from openai import OpenAI
+
 
 load_dotenv()  # load all the variables from the env file
 BOT_TOKEN = os.getenv("BOT_TOKEN")
